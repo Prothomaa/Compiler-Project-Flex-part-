@@ -1,0 +1,25 @@
+Header
+Integer Start{
+Integer a b c d e f
+d Assign 5
+For (e Assign 0 e LessThan 5 e Inc)
+{
+If(d Equal 5)
+Write("Hello World")
+Else
+Cut
+}
+Write("Enter two numbers: ")
+If(a greaterThan b)
+Write(a)
+Elif
+Write(b)
+Else
+Write(c)
+c Assign a Plus b
+Write("Summation= "   c)
+Write("Hello World")
+
+
+Back0
+}
